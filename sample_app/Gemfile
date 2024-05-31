@@ -11,7 +11,7 @@ gem 'ar-octopus', '0.6.0'
 gem 'pry'
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '>= 2.2.0'
   gem 'cucumber-rails', :require => false
   gem 'launchy'
   gem 'rspec-rails'
